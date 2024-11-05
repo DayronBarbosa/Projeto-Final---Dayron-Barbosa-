@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Equipamento</title>
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <h1>Equipamento</h1>
+  <br>
+  <form id="formulario">
+    <div>
+      <label for="nome"><strong>Nome</strong></label>
+      <input type="text" id="nome" name="nome" placeholder="Digite o Nome" required>
+    </div>
+    <div>
+      <label for="quantidade"><strong>Quantidade</strong></label>
+      <input type="number" id="quantidade" name="quantidade" placeholder="Digite a Quantidade" required>
+    </div>
+    <div>
+      <label for="estatus"><strong>Status</strong></label>
+      <input type="text" id="estatus" name="estatus" placeholder="Disponível/não Disponível">
+    </div>
+
+    <button>Cadastrar</button>
+  </form>
+  <br>
+  <div id="divBusca">
+    <input type="text" id="buscar" placeholder="Buscar por Nome..." />
+    <button id="btnBusca">Buscar</button>
+  </div>
+
+  <section class="container" id="todos_equipamento"></section>
+  <section class="container" id="buscar_equipamento"></section>
+
+  <script src="./equipamento.js"></script>
+</body>
+
+</html>

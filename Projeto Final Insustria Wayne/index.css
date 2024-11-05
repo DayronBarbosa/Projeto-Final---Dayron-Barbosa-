@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    border-radius: 2cap;
+}
+#logo{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 10px    ;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2cap;
+}
+.container{
+    display: flex;
+}
+.sidebar {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    float: none;
+    border-radius: 2cap;
+    margin-left: 10px;
+}
+.btn{
+    height: 100px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 1cap;
+    cursor: pointer;
+}
+.item{
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 1cap;
+}
+#conteudo{
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 2cap;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#rodape{
+    height: 100px;
+    background-color: #2d2e2e;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1cap;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
+.btnCriar {
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.btnCriar {
+    background-color: #2d2e2e;
+    border: 1px solid #2d2e2e;
+    transition: background-color .5s;
+}
+.btnCriar:hover {
+    background-color: #fff;
+    border: 1px solid #2d2e2e;
+    color: #2d2e2e;
+}
